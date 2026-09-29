@@ -200,7 +200,7 @@ export default function SignUpPage() {
                 id="fullName"
                 name="fullName"
                 type="text"
-                placeholder="John Doe"
+                placeholder="Jackson Kasanga"
                 value={formData.fullName}
                 onChange={handleChange}
                 disabled={isLoading}
@@ -284,13 +284,6 @@ export default function SignUpPage() {
                   className="text-accent hover:text-accent/80 transition-colors"
                 >
                   Terms & Conditions
-                </Link>{" "}
-                and{" "}
-                <Link
-                  href="/privacy"
-                  className="text-accent hover:text-accent/80 transition-colors"
-                >
-                  Privacy Policy
                 </Link>
               </Label>
             </div>
